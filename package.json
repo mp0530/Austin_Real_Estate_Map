@@ -1,0 +1,19 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mp0530/Austin_Real_Estate_Map.git"
+  },
+  "author": "Yuan-Ping Lee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mp0530/Austin_Real_Estate_Map/issues"
+  },
+  "homepage": "https://github.com/mp0530/Austin_Real_Estate_Map#readme",
+  "description": ""
+}

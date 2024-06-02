@@ -32,12 +32,20 @@
 
       const view = new MapView({
         map: map,
-        center: [-118.805, 34.027],
-        zoom: 13, // scale: 72223.819286
+        center: [-97.74202, 30.29805],
+        zoom: 10,
         container: "viewDiv",
         constraints: {
           snapToZoom: false
         }
+      });
+      require(["esri/layers/GeoJSONLayer"], function(GeoJSONLayer){
+
+        const postalBoundary = new GeoJSONLayer({
+          url: "https://data.austintexas.gov/resource/nf4y-c7ue.geojson"
+        });
+
+        map.add(postalBoundary);
       });
 
     });
